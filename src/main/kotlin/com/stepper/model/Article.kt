@@ -42,6 +42,7 @@ enum class Unit {
     GRAM
 }
 
+@kotlinx.serialization.Serializable
 data class Tag(
     val id: Long,
     val name: String

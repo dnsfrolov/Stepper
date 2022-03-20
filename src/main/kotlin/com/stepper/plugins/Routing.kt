@@ -9,7 +9,7 @@ fun Application.configureRouting() {
 
     // Starting point for a Ktor app:
     routing {
-        get("/data") {
+        get("/") {
             call.respond(Tag(1L, "dd"))
         }
     }
